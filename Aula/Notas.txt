@@ -1,0 +1,91 @@
+Primeiro comandos em python 
+    
+    todos os comandos são funções, e toda função tem que ter parenteses ()
+    print = Escreva 
+    Usa-se aspas para as mensagens '
+    ex: print('Olá, Mundo!')
+
+Numeros:
+    
+    Não são acompanhados de ', pois numeros são primordialmente criados para contas, mas caso eu deseja escrever esse numero na tela, ai sim eu coloco aspas
+    ex: print(7+4)
+
+Outro caso:
+    
+    se eu quiser juntar os numeros
+    ex: print('7'+'4') = nesse caso ele nao vai sere uma conta e sim uma mensagem juntando o 7 com o 4 = 74. O mais serve para junta nesse caso.
+    Se eu quero pegar uma mensagem e juntar com outra eu uso o +. E para juntar mensagem com numero eu uso a ,
+
+Variáveis:
+    
+    Toda Variável é um objeto. 
+    E pode receber valores. 
+    O sinal de = significa recebe.
+    O sinal de == significa comparação
+    
+    Nome='Felipe'
+    Idade=18
+    Peso=107 
+
+Como faz para perguntar para a pessoa:
+
+    Colocar Input em todas as variáveis definidas
+    Input = Leia
+    Sinal de = signfica recebe
+    ex: nome=Input(frase)
+
+Tipos Primitivos:
+
+São numeros inteiros, numeros reais, valores logicos
+
+
+    int (Integer) = (7 -4 0 9875) Numeros Inteiros 
+    float = (4.5 0.076 -15.223 7.0) Numero real tem pontos 
+    bool (Boolean) = True False
+    str (string) = 'Olá' '7.5' Sitring vazia = ''
+
+Novo modelo de print
+    
+    print('A soma vale',s) Sintax Antigo
+    print('A soma vale {}'.format(s)) Sintax Nova
+
+Projeções Aritméticas:
+
+    Operador de mais = +
+        Operador de menos = -
+            Operador de multiplicação = *
+                Operador de Divisão = /
+                    Operador de potência = **
+                        Operador de Divisão inteira = //
+                            Operador de Resto da Divisão = %
+
+    #Ordens de procedência
+
+    1 ()
+    2 **
+    3 * / // %
+    4 + - 
+
+Módulos
+
+    Import = Incluir alguma coisa 
+    Ex: import bebida = importa todas as bebidas dentro de uma biblioteca 
+
+    fromdoceimportpudim = para importar apenas um doce da biblioteca
+
+    math = mateméticas
+    ex: math
+            ceil = arredonda para cima
+            floor = arredonda para baixo
+            trunc = vai eliminar da virgula para frente
+            pow = potencia
+            sqrt = calcular raiz quadrada
+            factorial = para calcular numero factorial
+
+                importmath = ele importa todos os comando acima 
+
+                frommathimportsqrt = importa apenas o comando especificado
+
+
+
+
